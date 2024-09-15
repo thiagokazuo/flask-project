@@ -1,10 +1,10 @@
-**Documentação do Projeto Flask**
+# Documentação do Projeto Flask
 -
 
 **Visão Geral**
 Este projeto é uma aplicação web básica construída com Flask, utilizando a arquitetura MVC. Ele inclui funcionalidades de autenticação, registro de usuários e uma página inicial protegida que só pode ser acessada após o login.
 
-**Requisitos**
+## Requisitos
 Python 3.6+
 Flask
 Flask-WTF
