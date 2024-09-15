@@ -14,7 +14,7 @@ Flask-Migrate
 Werkzeug
 SQLite (para o banco de dados)
 
-Estrutura do Projeto
+**Estrutura do Projeto**
 
 ![alt text](image-1.png)
 
