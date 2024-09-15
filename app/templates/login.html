@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <label for="username">Username:</label>
+        {{ form.username() }}<br><br>
+        <label for="password">Password:</label>
+        {{ form.password() }}<br><br>
+        {{ form.submit() }}
+    </form>
+    <p>Don't have an account? <a href="{{ url_for('main.register') }}">Register here</a></p>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+</body>
+</html>
