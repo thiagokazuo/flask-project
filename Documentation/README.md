@@ -26,7 +26,7 @@ Crie um ambiente virtual e instale as dependências necessárias:
 ![alt text](image-2.png)
 
 **2. Configuração do Banco de Dados**
-O projeto utiliza SQLite por padrão. Configure a URI do banco de dados e a chave secreta no arquivo **config.py:**
+O projeto utiliza SQLite por padrão. Configure a URI do banco de dados e a chave secreta no arquivo <u>config.py:</u>
 
 ![alt text](image-3.png)
 
